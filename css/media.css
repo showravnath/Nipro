@@ -1,0 +1,615 @@
+/* extra small screen */
+@media (max-width: 575.98px){
+	/* header */
+	header{
+		padding-bottom: 5px;
+	}
+	.c_logo {
+	    width: 60%;
+	}
+	.c_menu ul li a {
+	    padding: 8px 0 !important;
+	}
+	.c_menu {
+	    margin-top: 20px;
+	}
+	.c_btn {
+	    padding: 8px 0;
+	}
+	.dd_search[data-bs-popper] {
+		margin-top: 0px;
+	    left: 3.3rem;
+	    top: 0;
+	}
+	/* slider */
+	.car_in {
+	    left: 33px;
+	    bottom: 4px;
+	}
+	.car_in [data-bs-target]{
+	    height: 14px;
+	}
+	.car_single {
+	    margin-top: 60px;
+	    margin-bottom: 80px;
+	}
+	.car_single h1, .car_single h2{
+		margin-bottom: 25px;
+		font-size: 27px;
+	}
+	.car_single p{
+		margin-bottom: 35px;
+		line-height: 22px;
+	}
+	.car_single a {
+	    width: 140px;
+        font-size: 13px;
+        height: 40px;
+        padding: 10px 10px;
+	}
+	.c_n_icon, .c_p_icon{
+		font-size: 15px;
+	}
+	/*welcome*/
+	.welcome {
+	    padding-bottom: 60px;
+	}
+	.c_verl{
+		height: 40px;
+	}
+	.c_title h1 {
+	    margin-top: 10px;
+	    font-size: 25px;
+	}
+	.c_mtb {
+        margin-top: 30px;
+        font-size: 14px;
+	    margin-bottom: 80px;
+	}
+	/*about start*/
+	.about{
+		padding-bottom: 60px;
+	}
+	.c_about h1{
+		margin-top: 20px;
+		margin-bottom: 24.66px;
+		font-size: 25px;
+	}
+	.c_about p{
+		margin-bottom: 24.66px;
+	}
+	.cs_btn {
+	    width: 150px;
+	    height: 40px;
+	    padding: 8px 7px;
+	}
+	.cs_btn span {
+	    padding-left: 5px;
+	}
+	/*recentwork*/
+	.c_nav {
+	    margin-top: 40px;
+	}
+	.c_nav li a {
+	    margin: 0;
+	    padding: 7px;
+	}
+	
+	.overlay_text {
+	    height: 80px;
+	    padding-top: 14px;
+	}
+	.overlay_text h2 {
+	    font-size: 16px;
+	    margin-bottom: 5px;
+	}
+	/*choosenipro*/
+	.choosenipro{
+		padding-bottom: 30px;
+	}
+	.mt-70 {
+	    margin-top: 40px;
+	}
+	.cn_sitem {
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+	.cn_sitem i {
+	    font-size: 55px;
+	}
+	.cn_sitem h2 {
+	    margin-top: 10px;
+	}
+	.cn_sitem p {
+	    margin-top: 15px;
+	    margin-bottom: 25px;
+	    line-height: 23px;
+	}
+	/*bestpricing*/
+	.s_bprice {
+	    padding: 0 40px;
+	}
+	/*calltoaction*/
+	.call_text h1 {
+	    margin-top: 10px;
+	    margin-bottom: 20px;
+	    line-height: 30px;
+	}
+	/*slider2*/
+	.slider2{
+		padding-top: 60px;
+	}
+	.s2_border {
+	    padding: 20px 15px;
+	}
+	.s2_text h1 {
+	    margin-top: 15px;
+	}
+	.s2_text h3 {
+	    margin-top: 8px;
+	}
+	.s2_text p {
+	    margin-top: 20px;
+	    line-height: 23px;
+	}
+	.s2_text p span{
+	    margin-top: 15px;
+	    line-height: 23px;
+	}
+	.s2_control {
+		margin-top: 15px;
+	    height: auto;
+	    padding: 13px 15px 8px;
+	    display: flex;
+	    justify-content: space-between;
+	}
+	.car_in2{
+		margin: 0;
+		display: inline-block;
+		align-items: center;
+	}
+	.c_p_icon2, .c_n_icon2 {
+	    transform: none;
+	    margin-top: 3px;
+	}
+	/*contact us*/
+	.contactus {
+	    padding-top: 70px;
+	}
+	.ctus_title h1{
+		font-size: 25px;
+	}
+	.ctus_form {
+	    margin-top: 45px;
+	    margin-bottom: 30px;
+	}
+	.f_name, .l_name, .ur_email, .ur_message {
+	    padding:  8px 10px;
+	}
+	.f_name, .l_name {
+	    margin-bottom: 15px;
+	}
+	.ur_message {
+	    margin-top: 25px;
+	}
+	.form_btn {
+	    margin-top: 30px;
+	    width: 170px;
+	    height: 45px;
+	    padding: 11px 17px;
+	}
+	.ft_text ul li{
+		margin-bottom: 30px;
+	}
+	.ft_text ul li:last-child{
+		margin-right: 9px;
+	}
+	/*footer*/
+	
+	.fb_text ul{
+	    margin-top: 5px;
+	}
+	.fb_text ul li{
+	    display: block;
+	}
+	.fb_text ul li a{
+	    display: block;
+	    padding: 5px;
+	}
+}
+/* small screen */
+@media (min-width: 576px) and (max-width: 767.98px){
+	/* header */
+	header{
+		padding-bottom: 5px;
+	}
+	.c_logo {
+	    width: 70%;
+	}
+	.c_menu ul li a {
+	    padding: 8px 0 !important;
+	}
+	.c_menu {
+	    margin-top: 20px;
+	}
+	.c_btn {
+	    padding: 8px 0;
+	}
+	.dd_search[data-bs-popper] {
+		margin-top: 0px;
+	    left: 3.3rem;
+	    top: 0;
+	}
+	/* slider */
+	.car_in {
+	    left: 38px;
+	    bottom: 4px;
+	}
+	.car_in [data-bs-target]{
+	    height: 14px;
+	}
+	.car_single {
+	    margin-top: 130px;
+	    margin-bottom: 145px;
+	}
+	.car_single h1, .car_single h2{
+		font-size: 45px;
+	}
+	.car_single a {
+	    width: 190px;
+	    height: 45px;
+	    padding: 10px 20px;
+	}
+	/*welcome*/
+	.welcome {
+	    padding-bottom: 65px;
+	}
+	.c_verl{
+		height: 45px;
+	}
+	.c_title h1 {
+	    margin-top: 12px;
+	    font-size: 28px;
+	}
+	.c_mtb {
+	    margin-top: 40px;
+	    margin-bottom: 90px;
+	}
+	/*about start*/
+	.about{
+		padding-bottom: 65px;
+	}
+	.c_about h1{
+		margin-top: 20px;
+		margin-bottom: 25.66px;
+		font-size: 28px;
+	}
+	.c_about p{
+		margin-bottom: 25.66px;
+	}
+	.cs_btn{
+	    width: 170px;
+	    height: 45px;
+	    padding: 11px 14px;
+	}
+	.cs_btn span {
+	    padding-left: 10px;
+	}
+	/*recentwork*/
+	.c_nav {
+	    margin-top: 40px;
+	}
+	.c_nav li a {
+	    margin: 0;
+	    padding: 7px;
+	}
+	.c_overlay i {
+		font-size: 50px;
+	    padding-top: 28%;
+	}
+	
+	.overlay_text h2 {
+	    font-size: 16px;
+	    margin-bottom: 5px;
+	}
+	/*choosenipro*/
+	.choosenipro{
+		padding-bottom: 35px;
+	}
+	.mt-70 {
+	    margin-top: 40px;
+	}
+	.cn_sitem h2 {
+		padding-left: 10px;
+	}	
+	/*calltoaction*/
+	.call_text h1 {
+	    margin-top: 10px;
+	    margin-bottom: 30px;
+	}
+	/*slider2*/
+	.slider2{
+		padding-top: 65px;
+	}
+	.s2_border {
+	    padding: 20px 15px;
+	}
+	.wmd_70{
+		width: 70% !important;
+	}
+	.s2_text h1 {
+	    margin-top: 15px;
+	}
+	.s2_text h3 {
+	    margin-top: 8px;
+	}
+	.s2_text p {
+	    margin-top: 20px;
+	    line-height: 23px;
+	}
+	.s2_text p span{
+	    margin-top: 15px;
+	    line-height: 23px;
+	}
+	.s2_control {
+		margin-top: 15px;
+	    height: auto;
+	    padding: 15px 15px 9px;
+	    display: flex;
+	    justify-content: space-between;
+	}
+	.car_in2{
+		margin: 0;
+		display: inline-block;
+		align-items: center;
+	}
+	.c_p_icon2, .c_n_icon2 {
+	    transform: none;
+	    margin-top: 3px;
+	}
+	/*contact us*/
+	.contactus {
+	    padding-top: 75px;
+	}
+	.ctus_title h1{
+		font-size: 28px;
+	}
+	.ctus_form {
+	    margin-top: 50px;
+	    margin-bottom: 35px;
+	}
+	.f_name, .l_name, .ur_email, .ur_message {
+	    padding: 10px 15px;
+	}
+	.f_name, .l_name {
+	    margin-bottom: 15px;
+	}
+	.ur_message {
+	    margin-top: 25px;
+	}
+	/*footer*/
+	.fb_text ul li:not(:last-child) a {
+	    padding-right: 20px;
+	}
+	.fb_text ul{
+	    margin-top: 10px;
+	}
+}
+/* medium screen */
+@media (min-width: 768px) and (max-width: 991.98px){
+	/* header */
+	header{
+		padding-bottom: 5px;
+	}
+	.c_logo {
+	    width: 80%;
+	}
+	.c_menu ul li a {
+	    padding: 10px 0 !important;
+	}
+	.c_menu {
+	    margin-top: 20px;
+	}
+	.c_btn {
+	    padding: 8px 0;
+	}
+	.dd_search[data-bs-popper] {
+		margin-top: 0px;
+	    left: 3.5rem;
+	    top: 0;
+	}
+	/* slider */
+	.car_in {
+	    left: 42px;
+	    bottom: 3px;
+	}
+
+	.car_single {
+	    margin-top: 170px;
+	    margin-bottom: 170px;
+	}
+	.car_single h1, .car_single h2{
+		font-size: 55px;
+	}
+	.car_single a {
+	    width: 230px;
+	    height: 48px;
+	    padding: 12px 25px;
+	}
+	/*welcome*/
+	.welcome {
+	    padding-bottom: 75px;
+	}
+	.c_title h1 {
+	    margin-top: 15px;
+	}
+	.c_mtb {
+	    margin-top: 40px;
+	    margin-bottom: 100px;
+	}
+	.c_single{
+		padding: 0 35px;
+	}
+	/*about start*/
+	.about{
+		padding-bottom: 75px;
+	}
+	.c_about h1{
+		margin-bottom: 10px;
+	}
+	.c_about p{
+		margin-bottom: 10px;
+	}
+	.cs_btn {
+	    width: 190px;
+	}
+	/*recentwork start*/
+	.recentwork{
+		padding-bottom: 45px;
+	}
+	.c_nav{
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+	.c_nav li a{
+		margin: 0 5px;
+	}
+	
+	/*choosenipro*/
+	.choosenipro{
+		padding-bottom: 45px;
+	}
+	.mt-70 {
+	    margin-top: 50px;
+	}
+	/*bestpricing*/
+	.s_bprice {
+	    padding: 0 40px;
+	}
+	/*slider2*/
+	.slider2{
+		padding-top: 75px;
+	}
+	.s2_border {
+	    padding: 20px 15px;
+	}
+	.s2_text h3 {
+	    margin-top: 8px;
+	}
+	.s2_text p {
+	    margin-top: 20px;
+	    line-height: 23px;
+	}
+	.s2_text p span{
+	    margin-top: 15px;
+	    line-height: 23px;
+	}
+	.s2_control {
+		margin-top: 15px;
+	    height: auto;
+	    padding: 15px 15px 9px;
+	    display: flex;
+	    justify-content: space-between;
+	}
+	.car_in2{
+		margin: 0;
+		display: inline-block;
+		align-items: center;
+	}
+	.c_p_icon2, .c_n_icon2 {
+	    transform: none;
+	    margin-top: 3px;
+	}
+	/*contact us*/
+	.contactus {
+	    padding-top: 85px;
+	}
+	.ctus_form {
+	    margin-top: 55px;
+	}
+	.f_name, .l_name, .ur_email, .ur_message {
+	    padding: 10px 15px;
+	}
+	.f_name, .l_name {
+	    margin-bottom: 20px;
+	}
+	.ur_message {
+	    margin-top: 30px;
+	}
+	/*footer*/
+	.fb_text ul li:not(:last-child) a {
+	    padding-right: 20px;
+	}
+	.fb_text ul{
+	    margin-top: 10px;
+	}
+}
+
+/* large screen */
+@media (min-width: 992px) and (max-width: 1199.98px){
+	/* slider */
+	.car_in {
+	    left: 47px;
+	}
+	.car_single h1, .car_single h2{
+		font-size: 50px;
+	}
+	/*about start*/
+	.c_about h1{
+		margin-bottom: 26.66px;
+	}
+	.c_about p{
+		margin-bottom: 26.66px;
+	}
+	/*recentwork*/
+	
+	
+	.overlay_text h2 {
+	    font-size: 16px;
+	}
+
+	.port_title {
+	    padding: 15px 0 20px 12px;
+	}
+	/*slider2*/
+	.s2_border {
+	    padding: 25px 20px;
+	}
+	.s2_text h3 {
+	    margin-top: 10px;
+	}
+	.s2_text p {
+	    margin-top: 25px;
+	    line-height: 24px;
+	}
+	.s2_text p span {
+	    margin-top: 15px;
+    }
+    .s2_control {
+	    padding: 35px 7px;
+	}
+	.car_in2 {
+	    margin: 77px 0 77px 10px;
+	}
+	/*footer*/
+	.fb_text ul li:not(:last-child) a {
+	    padding-right: 30px;
+	}
+}
+/* extra large screen */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+	
+}
+/* extra extra large screen */
+@media (min-width: 1400px){
+    .car_in{
+        left: 55px;
+    }
+    .s2_control {
+	    padding: 40px 22px;
+	}
+    .car_in2 {
+	    margin: 93px 0 93px 10px;
+	}
+    
+}
